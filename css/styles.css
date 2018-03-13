@@ -1,16 +1,26 @@
-body {    
-    background-image: url("../images/background.webp"); /* fallback */
-    background-image: url("../images/background.webp"), linear-gradient(rgba(90, 51, 50, 0.53), rgba(193, 77, 74, 0.53)); /* W3C */    
+body {
+    background-image: url("../images/background.webp");
+    /* fallback */
+    background-image: url("../images/background.webp"), linear-gradient(rgba(90, 51, 50, 0.53), rgba(193, 77, 74, 0.53));
+    /* W3C */
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
 h1 {
     font-family: serif;
     text-align: center;
 }
+
 h2 {
     font-size: 18px;
+}
+
+p {
+    font-family:cursive;
+    text-align:left;
+    
 }
 div {
     background color: black;
@@ -19,12 +29,20 @@ div {
     padding: 15px;
     margin: 20px;
 }
+
 .pics {
     border: 1px;
     border-style: solid;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.39);
 }
-s
+
 #violapic {
     width: 25%;
+}
+
+#strings {
+    width: 35%;
+}
+#size {
+    width: 45%;
 }
